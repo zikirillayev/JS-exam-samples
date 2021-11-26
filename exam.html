@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+</head>
+<body>
+
+        <script>
+
+//             // 1-assignment
+//             let massive = [];
+//             function setRandom(){
+//                 return Math.round(Math.random() * 50) + 1;
+//             }
+//             for(c = 0 ; c < 10 ; c++){
+//                 massive.push(setRandom())
+//             }
+
+//             // 2-assignment
+//             let s = [2,3,5,69,9]
+//             let res = Math.max(...s)
+//             console.log(`Max number: ${res}`)
+
+//           // 3-assignment
+        // let findT = (["Javascript" , "Dockert" , "GitHub" , "BitBucket"]).join("").toLocaleLowerCase()
+        //    let qwerty = []
+        //     for(i = 0 ; i <= findT.length; i++){
+        //         if(findT[i] === "t"){
+        //                 qwerty.push(findT[i])    
+        //     } 
+        //      }console.log(qwerty.length)
+            
+            
+//             // 4-assignment
+//             function devideTo2(){
+//             for(i = 0 ; i <= 40; i++){
+//                 if(i % 2 == 0){
+//                     console.log(i)
+//                 }
+//             }
+//         }devideTo2()
+
+//             // 5-assignment
+//             function devide(){
+//             for(k = 0 ; k <= 90; k++){
+//                 if(k % 5 == 0){
+//                     console.log(k)
+//                 }
+//             }
+//         }devide()
+
+//             // 6-assigment
+            //   function findNum(str) {
+            //     let regExp = /[0-9]/g;
+            //     return str.match(regExp)
+              
+            //   }
+            //   console.log(findNum('OurShortNumber1070'))
+
+//             // 7-assignment
+            // changeLetter('ananas');
+            // function changeLetter(given) {
+            // let fromEnd = given.length - 1;
+            // let twoLetter =  given[fromEnd - 1] + given[fromEnd];
+            // given = given.split('');
+            // given.splice(fromEnd - 1 , 2);
+            // given = given.join('')
+            // given = twoLetter + given
+            // console.log(given)
+            // }
+             
+
+//             // 8-assignment
+//             let fruit = true;
+//             while (fruit){
+//                 let user = prompt("Write a name of fruit")
+//                 if (user === "stop"){
+//                     fruit = false
+//                 }
+//             } 
+
+
+//             // 9-assignment
+            //  let n = prompt("N = ?");
+            //  let res1 = Math.round(n / 7 * 1);
+            //  let res2 = n / 3 * 0.15;
+             
+            // console.log(`Bananlar: ${res1} ta ; Suv:${res2} litr`)
+            
+
+//             // 10-assignment
+            // let me = prompt("Kod")
+            // if(me === 'gandi123'){
+            //     alert('Welcome')
+            // }
+            // else alert('Try again')
+
+//             // 11-assignment
+//             let human = "A1"    
+//             let choice = ['A1','A3','A5','A7','B2','B4','B6','B8','C1','C3','C5','C7','D2','D4','D6','D8','E1','E3','E5','E7','F2','F4','F6','F8','G1','G3','G5','G7','H2','H4','H6','H8']
+//             let choice1 = ['A2','A4','A6','A8','B1','B3','B5','B7','C2','C4','C6','C8','D1','D3','D5','D7','E2','E4','E6','E8','F1','F3','F5','F7','G2','G4','G6','G8','H1','H3','H5','H7']
+//             function chess(){
+// for(let chosen of choice){
+//     if(chosen  === human){
+//                     console.log(`Black`)
+//                 }
+                
+                   
+// }
+// for(let chosen1 of choice1){
+//                     if(chosen1 === human){
+//                         console.log(`White`)
+//                     }
+//                 }
+// }chess()
+                
+            
+        
+//             // 12-assignment
+//             let arrs = ['a',1,'c',3]
+//             console.log(`length: ${arrs.length} & 'c' index = 3`)
+
+//             // 13-assignment
+//             for(g = 0 ; g < 10 ; g++){
+//                 console.log(`Joe Biden`)
+//             }
+
+//             // 14-assignment
+//             let b = [0,1,2,3,4,5,6,]
+//             b.forEach(function (val){
+//                 console.log(Math.pow(val,2))
+//             })
+            
+            // 15-assignment
+            let frTeam = []
+            let blTeam = []
+            let fr = [10,20,7,18,12]
+            let bl = [17,18,7,10,15]
+            function final(first,second){
+                for(i of first){
+                if (i % 2 !== 0){
+                    frTeam.push(i)
+                }
+            }     
+            for(k of second){
+                if (k % 2 !== 0){
+                    blTeam.push(k)
+                }
+            }
+            if(blTeam.length > frTeam.length){
+                console.log(`Belgium, Congratulations!`)
+                console.log(`${blTeam} gol urdi`)
+            }
+            else{
+                console.log(`France, Congratulations!`)
+                console.log(`${frteam} gol urdi`)
+            }
+            
+            }final(fr,bl)
+       
+      
+             </script>
+</body>
+</html>
