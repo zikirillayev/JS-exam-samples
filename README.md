@@ -1,0 +1,2 @@
+# JS exam samples
+ :)
